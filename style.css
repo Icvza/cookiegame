@@ -1,0 +1,46 @@
+*{
+     margin: 0
+}
+html {
+     height: 100%;
+     background: rgb(19,36,0);
+     background: linear-gradient(210deg, rgba(19,36,0,1) 0%, rgba(9,48,121,1) 34%, rgba(0,255,203,1) 100%);
+}
+
+body {
+     min-height: 100%;
+}
+body, .headerText{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.cookieImg{
+     border-radius: 50%;
+}
+p{
+     padding: 20px;
+     text-align: center;
+}
+#startButton{
+     background-color: #4CAF50; 
+     border: none;
+     padding: 16px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     border-radius: 50%;
+     font-size: 20px;
+     border: 2px solid #4CAF50; 
+}
+
+#button-id{
+     margin: 40px
+}
+.headerText p{
+     font-size: large;
+     color: white;
+}
+
+
